@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/67198824-7674-4adb-bc8e-a92298ca5b21/dbbd3kx-90bfa7ee-def8-45b7-b307-a550fb15c0d0.png/v1/fill/w_1290,h_619,q_70,strp/cinema4d_five_nights_at_freddy_s_2_office_by_gabocoart_dbbd3kx-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzA3MiIsInBhdGgiOiJcL2ZcLzY3MTk4ODI0LTc2NzQtNGFkYi1iYzhlLWE5MjI5OGNhNWIyMVwvZGJiZDNreC05MGJmYTdlZS1kZWY4LTQ1YjctYjMwNy1hNTUwZmIxNWMwZDAucG5nIiwid2lkdGgiOiI8PTY0MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.tQrJX3xew2vjJyGozRrHCZoB36Q8nW4EPYZvHJw4xmE');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: white; /* Añadir color de texto global */
+}
+
+.texto {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  text-align: left; /* Alinear el texto a la izquierda */
+  vertical-align: top; /* Alinear el texto en la parte superior */
+  color: white; /* Color de texto para h1 y p */
+  font-size: 20px; /* Tamaño de texto para h1 y p */
+}
+
+.texto h1 {
+  font-size: 24px; /* Tamaño de texto específico para h1 */
+  margin: 0; /* Eliminar margen predeterminado para h1 */
+}
+
+.texto p {
+  font-size: 16px; /* Tamaño de texto específico para p */
+}
+
+/* Estilos para el fondo, el stick y el texto */
+/* ... (tu código CSS existente) ... */
+
+/* Estilos para los botones */
+.buttons {
+  display: flex;
+  justify-content: flex-end; /* Alinear las columnas a la derecha */
+  position: absolute;
+  bottom: 10px; /* Colocar el contenedor de botones en la parte inferior */
+  right: 20px; /* Dejar 20px de borde a la derecha */
+  gap: 20px; /* Espaciado entre las columnas */
+}
+
+.buttons .column {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  width: 180px; /* Ancho del botón */
+  height: 180px; /* Alto del botón */
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 20px; /* Espaciado entre los botones en cada columna */
+}
+
+button img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Animación de botón presionado */
+button:active {
+  transform: scale(0.9);
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  position: absolute;
+  bottom: 0;
+  width: 99%; /* Reducir el ancho del footer al 90% del contenedor */
+}

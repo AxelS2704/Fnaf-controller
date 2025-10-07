@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://e1.pxfuel.com/desktop-wallpaper/832/968/desktop-wallpaper-sfm-fnaf-3-good-ending-remake-fivenightsatfreddys-fnaf3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: white;
+}
+
+.texto {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  text-align: left;
+  vertical-align: top;
+  color: white;
+  font-size: 20px;
+}
+
+.texto h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Estilo para el contenedor de la galería de imágenes */
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+/* Estilo para cada columna */
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Estilo para las imágenes dentro de cada columna */
+.column img {
+  margin-bottom: 10px;
+  border: 2px solid #ccc;
+}
